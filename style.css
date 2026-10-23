@@ -1,0 +1,71 @@
+/* General page styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #243247;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #142b49;
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin: 10px 0 0;
+    color: #d1deef;
+}
+
+/* Navigation */
+nav {
+    background-color: #203e63;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #80c4ff;
+}
+
+/* Main content */
+main {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #173b65;
+}
+
+/* Mobile support */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    main {
+        margin: 20px;
+        padding: 20px;
+    }
+}
